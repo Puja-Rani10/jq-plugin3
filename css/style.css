@@ -1,0 +1,35 @@
+*{margin: 0;padding: 0}
+
+.fun{
+  background-color: #000c21;
+}
+h1,h2 { color:#fff; margin:20px auto; text-align:center}
+#item {
+  display: none;
+  float: left;
+  width: 20%;
+  height: 300px;
+}
+.row { width:100%; }
+.row:after { clear:both}
+.clear { clear:both}
+
+.stick_content h1{
+   margin:50px auto;
+     color: black;
+    text-align:center;
+
+}
+.alert .title {
+    font-weight: bold;
+}
+
+.alert {
+    position: relative;
+    top: 0;
+    left: 0;
+    right:0;
+    z-index:10000000;
+    margin-left: auto;
+    margin-right: auto;
+}
